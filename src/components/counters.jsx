@@ -16,6 +16,7 @@ class Counters extends Component {
                    key={v.id}
                    onDelete={tab=>this.props.onDelete(tab)}
                    onIncrement={tab=>this.props.onIncrement(tab)}
+                   onDecrement={tab=>this.props.onDecrement(tab)}
 
                   v={v}/>
                          ))}
